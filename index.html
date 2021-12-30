@@ -153,15 +153,15 @@
         <div id = 'MLProjects'>
              <section class="page-section bg-white text-dark">
             <div class="container text-center">
-                <h2 class=" mt-0">Machine Learning Projects</h2>
+                <h2 class=" mt-0">Machine Learning & Optimization Projects</h2>
                 <hr class="divider my-4" />
             </div>
             </section>
             <!--Model Pruning-->    
             <section  class="project-section" id="Pruning">
                 <div class="container two_column">
-                    <div class = 'col-lg-3 col-md-3 text-center'>
-                        <img class="gif_optimization" src="assets/img/portfolio/Pruning.png"><img/>
+                    <div class = 'col-lg-4 col-md-4 text-center'>
+                        <img src="assets/img/portfolio/Pruning.png"><img/>
                     </div>  
                     <div class = 'column'>
                         <h2 class="text-center mt-0">CNN Model Pruning</h2>
@@ -172,18 +172,18 @@
                     </div>
                 </div>
             </section>
-            <!-- Robotics-->    
-            <section  class="project-section" id="Robotics">
+            <!--LSTM-->    
+            <section  class="project-section" id="DL_Biomechanics">
                 <div class="container two_column">
                     <div class = 'column'>
-                        <h2 class="text-center mt-0">Optimized Robotic Gait</h2>
+                        <h2 class="text-center mt-0">GRF predictor RNNs</h2>
                         <hr class="divider my-3" />
                         <div class="center-text mb-4">
-                                <p > For my final project in my Optimization class at Carnegie Mellon University during Fall 2020, my team of 4 performed trajectory optimization in MATLAB for a two legged walking robot. This involves minimizing the energy consumed for the robot to take a single step, optimizing for the joint angles, joint velocities, and joint torques over time. It was an excellent introduction into the world of optimization.   </p> 
+                                <p>Measurements of reaction force during a human gait have been traditionally performed in expensive lab setup. In Spring 2021 we worked on using LSTMs to predict the reaction force through IMU data. Because of the advent of wearable technologies IMU data is much easily gathered data. I worked on implementing Ray tune framework to tune the hyperparameters on a grid search space. I used ASHA scheduler, which uses parallel model training and aggressive early-stopping techniques to reduce the tune & train time. You can see the sample prediction task of our model using various groups of IMU's vs the ground truth</p> 
                         </div>
                     </div>
                     <div class = 'column'>
-                        <img class="gif_optimization" src="assets/img/portfolio/Combined2.gif"><img/>
+                        <img class="gif_optimization" src="assets/img/portfolio/LSTM.png"><img/>
                     </div>      
                 </div>
             </section>
