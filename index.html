@@ -49,7 +49,7 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5 image_front"> I am a Grad Student at Carnegie Mellon University. My dual primary focuses are <b style="font-size:32px">Machine Learning & Product Management</b>.<br/>This website is aimed to showcase my projects in this fields.</p>
+                        <p class="text-white-75 font-weight-light mb-5 image_front"> I am a Grad Student at Carnegie Mellon University. My dual primary focuses are <b style="font-size:30px">Machine Learning & Product Management</b>.<br/>This website is aimed to showcase my projects in this fields.</p>
                         <a class="btn btn-primary btn-xl button_center" href="/assets/img/JST_CV_New.pdf" target="_blank" rel="noopener noreferrer"> Jaldhir Trivedi's Resume</a>
                     </div>
                     
@@ -161,7 +161,7 @@
             <div class="container text-center">
                 <h2 class=" mt-0">Machine Learning & Optimization Projects</h2>
                 <hr class="divider my-4" />
-                <p style="text-justify">Through grad school I got to work on many projects in Machine Learning. Each project posed unique set of challenges: a) In some tasks the data is unstrutured or is distributed among various data source and requires entity resolution to be model ready, b) Some modelling task such as deep neural networks need extensive hyperparameter tuning to maximize model performance c) some models take a lot of time and resources in forward inference and so they require model compression.<br/>Use the links below to know more about the specific projects where I confront these challenges. </p>
+                <p style="text-justify">Through grad school I got to work on many projects in Machine Learning. Each project posed unique set of challenges: a) In some tasks the data was unstrutured or was distributed across various data sources and required entity resolution to be model ready, b) Some modelling task such as deep neural networks need extensive hyperparameter tuning to maximize model performance c) some models were slow in forward inference and so they require model compression.<br/>Use the links below to know more about the projects where I confront these specific challenges. </p>
                 <a href="#Pollution">A) Preprocessing</a><b>  |  </b><a href="#Biomechanics">B) Hyperparameter Tuning</a><b>  |  </b><a href="#Pruning">C) Model Compression</a>
             </div>
             </section>
@@ -176,7 +176,7 @@
                         <hr class="divider my-3" />
                         <div class="text-justify mb-4">
                                 <p>Extremely powerful AI models often require a lot of compute resources and runtime for forward inference. Model Pruning is one way to manage the trade off between model complexity & model efficiency. During Fall 2021 I worked on pruning a Deep CNN with around 600,000 trainable parameters through sparsification. I designed a bunch of prune strategies. The best pruned model has 97% sparsity and accuracy of 74.2% (uncompressed model accuracy = 76%). Thus we decreased our model parameters from 600k to 18k while limiting the loss in accuracy to only 2 points.</p> 
-                                <p>Keywords: <b style='color:Red'>#Model_Pruning</b>, <u>#CNN</u>, <u>#Model_Compression</u>, <u>#Sparsity</u>, <u>#Tensorflow</u>, <u>#Keras</u></p>
+                                <p>Keywords: <b style='color:Red'>#model_pruning</b>, <u>#CNN</u>, <u>#model_compression</u>, <u>#sparsity</u>, <u>#Tensorflow</u>, <u>#Keras</u></p>
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                         <hr class="divider my-3" />
                         <div class="text-justify mb-4">
                                 <p>Measurements of reaction force during a human gait have been traditionally performed in expensive lab setup. In Spring 2021 we worked on using LSTMs to predict the reaction force through IMU data. Because of the advent of wearable technologies IMU data can be gathered much easily. I worked on implementing Ray tune framework to run ASHA scheduler scheme to tune the hyperparameters on a grid search space. ASHA scheduler uses parallel model training and aggressive early-stopping techniques to reduce the tune & train time. You can see the sample prediction task of our model using various groups of IMU's vs the ground truth the figure on the right.</p> 
-                                <p>Keywords: <u>#LSTM</u>, <u>#RNN</u>, <u>#Deep_Learning</u>, <u>#Hyperparameter</u>, <u>#Ray_tune</u>, <u>#ASHA_scheduler</u>, <u>#Pytorch</u></p>
+                                <p>Keywords: <u>#LSTM</u>, <u>#RNN</u>, <u>#deep_learning</u>, <u>#hyperparameter_tuning</u>, <u>#Ray_tune</u>, <u>#ASHA_scheduler</u>, <u>#Pytorch</u></p>
                         </div>
                     </div>
                     <div class = 'col-lg-4 col-md-4 text-center'>
@@ -208,7 +208,7 @@
                         <hr class="divider my-3" />
                         <div class="text-justify mb-4">
                                 <p>For the final project in my AI/ML class at Carnegie Mellon during Fall 2020, I tried to explore if a US county's infrastructure data can be utilized to predict its polution levels. The infrastructure data here includes power plants, fuel stations, prevelance of commercial spaces, length of roads etc. Given that not a single data source for all these infrastructure details exist, I carried out entity resolution. I tested various ML pipelines changing the models, preprocessing schema and also altering the prediction task between classification and regression. The final results for various models are given in the figure towards the left.</p> 
-                                <p>Keywords: <u>#Classifiers</u>, <u>#Regressors</u>, <u>#Shallow_models</u>, <u>#Entity_resolution</u>, <u>#Data_Preprocessing</u>, <u>#sklearn</u></p>
+                                <p>Keywords: <u>#classifiers</u>, <u>#regressors</u>, <u>#sklearn</u>,<u>#shallow_models</u>, <u>#entity_resolution</u>, <u>#data_preprocessing</u></p>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
                         <hr class="divider my-3" />
                         <div class="text-justify mb-4">
                                 <p>In Fall 2020 I worked on trajectory optimization for a two-link Robot in a Gravity enabled environment. I utilized Matlab's fmincon method to find a trajectory which requires robot to expend least thermal cost of actuation. However the code can accept any cost function to optimize the trajectory over. The user can also add any additional constraints according to the environment and the task. For instance the gif towards the right shows comparison between the unconstrained optimization Vs the case where the root link can't swing beyond ±135° from the horizontal.</p>
-                                <p>Keywords: <u>#Optimization</u>, <u>#Matlab</u>, <u>#robot_dynamics</u>, <u>#trajectory_optimization</u>, <u>#constrained_optimization</u></p>
+                                <p>Keywords: <u>#optimization</u>, <u>#trajectory_optimization</u>, <u>#constrained_optimization</u>, <u>#robot_dynamics</u>, <u>#Matlab</u></p>
                         </div>
                     </div>
                 <div class = 'col-lg-3 col-md-3'>
@@ -286,7 +286,7 @@
                         <hr class="divider my-3" />
                         <div class="text-justify mb-4">
                                 <p>In Fall 2021, I worked with a team of Honeywell on creating procedures to benchmark the snappiness of barcode scanners. We want our benchmarking measurements to be repeatable (i.e. devoid of human vairance) and relatable (i.e. it measures what snappiness would be in real use cases). For this we adopted 2 phase design process. The first phase consists of ethnogrpahic studies of current use cases to formalize what snappiness means. The next step was to design the procedures that repatably measures a quantitative snappiness measurements. Check out our <a href="/assets/img/portfolio/HoneywellPPT.pdf" target="_blank" rel="noopener noreferrer">Presentation</a> & detailed <a href="/assets/img/portfolio/HoneywellReport.pdf" target="_blank" rel="noopener noreferrer">Report</a></p> 
-                                <p>Keywords: <u>#product_benchmarking</u>, <u>#key_performance_metric</u>, <u>#product_differentiation</u>, <u>#ethnography</u>, <u>#honeywell</u></p>
+                                <p>Keywords: <u>#ethnography</u>, <u>#honeywell</u>, <u>#product_benchmarking</u>, <u>#key_performance_metric</u>, <u>#product_differentiation</u></p>
                        
                         </div>
                     </div>
